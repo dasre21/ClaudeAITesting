@@ -1,6 +1,6 @@
 # Playwright + SpecFlow + NUnit Test Framework
 
-A .NET test automation framework combining **Playwright** (browser automation), **SpecFlow** (Gherkin/BDD), **NUnit** (test runner/assertions), and the **Page Object Model** pattern.
+Automation scripts created using Claude Code. A .NET test automation framework combining **Playwright** (browser automation), **SpecFlow** (Gherkin/BDD), **NUnit** (test runner/assertions), and the **Page Object Model** pattern.
 
 ## Folder structure
 
