@@ -1,0 +1,32 @@
+## .NET
+bin/
+obj/
+*.user
+*.suo
+
+## Visual Studio
+.vs/
+*.userosscache
+*.sln.docstates
+
+## Test results / artifacts
+TestResults/
+Screenshots/
+*.trx
+
+## Playwright
+**/bin/**/.playwright/
+
+## SpecFlow generated code-behind
+*.feature.cs
+
+## Rider
+.idea/
+
+## OS
+.DS_Store
+Thumbs.db
+
+## Claude Code local session state
+.claude/settings.local.json
+.claude/scheduled_tasks.lock

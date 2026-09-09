@@ -1,0 +1,7 @@
+{
+  "users": [
+    { "username": "standard_user", "password": "secret_sauce", "description": "Valid, unrestricted user" },
+    { "username": "locked_out_user", "password": "secret_sauce", "description": "User blocked from logging in" },
+    { "username": "problem_user", "password": "secret_sauce", "description": "User with known UI issues" }
+  ]
+}
