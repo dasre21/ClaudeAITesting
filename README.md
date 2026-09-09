@@ -1,5 +1,7 @@
 # Playwright + SpecFlow + NUnit Test Framework
 
+[![CI](https://github.com/dasre21/ClaudeAITesting/actions/workflows/ci.yml/badge.svg)](https://github.com/dasre21/ClaudeAITesting/actions/workflows/ci.yml)
+
 Automation scripts created using Claude Code. A .NET test automation framework combining **Playwright** (browser automation), **SpecFlow** (Gherkin/BDD), **NUnit** (test runner/assertions), and the **Page Object Model** pattern.
 
 ## Folder structure
@@ -67,6 +69,10 @@ Run against a different environment (loads `Config/appsettings.<name>.json` over
 $env:TEST_ENVIRONMENT = "dev"
 dotnet test
 ```
+
+## CI
+
+`.github/workflows/ci.yml` runs on every push/PR to `main`: it restores, builds, installs the Chromium browser binary, and runs the full suite with `TEST_ENVIRONMENT=ci` (so it uses the headless base config rather than the headed `dev` override). Test results (`.trx`) and any failure screenshots are uploaded as workflow artifacts.
 
 ## How it fits together
 
